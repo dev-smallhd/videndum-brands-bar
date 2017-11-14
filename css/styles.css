@@ -1,0 +1,257 @@
+.vitec-list::after, .vitec-section .cols-container:after {
+  display: block;
+  clear: both;
+  content: ""
+}
+
+.vitec-section * {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: inherit
+}
+
+.vitec-section .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 30px
+}
+
+.vitec-section .yellow {
+  color: #fecb00
+}
+
+.vitec-section .collapsible-section {
+  background: #000
+}
+
+.vitec-section {
+  background-color: #535353
+}
+
+.vitec-menu
+{
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+
+.vitec-menu > li
+{
+  -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+
+.vitec-section .close-vitec-menu {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../images/close.png) no-repeat;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  cursor: pointer
+}
+
+.vitec-section h2 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 36px
+}
+
+.vitec-section h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #fff;
+  padding: 5px 0
+}
+
+ul.vitec-menu, ul.vitec-menu li, ul.vitec-menu li a {
+  display: block
+}
+
+ul.vitec-menu ul {
+  margin-bottom: 25px
+}
+
+.vitec-section h2 span {
+  display: block
+}
+
+.vitec-section .yellow-separator {
+  padding-left: 90px;
+  border-left: 2px solid #fecb00
+}
+
+.vitec {
+  height: 26px;
+  padding: 5px 0;
+  display: block
+}
+
+.vitec .vitec-logo {
+  float: left;
+  line-height: 13px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 40px;
+  position: relative
+}
+
+.vitec .vitec-logo .logo-image {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -6px;
+  height: 36px;
+  width: 36px;
+  background: url(../images/vitec-logo.png) center left no-repeat
+}
+
+.vitec .vitec-sites {
+  float: right;
+  cursor: pointer;
+  line-height: 26px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  padding-right: 15px;
+  background: url(../images/uparrow.png) center right no-repeat
+}
+
+.vitec .vitec-sites.active {
+  background: url(../images/downarrow.png) center right no-repeat
+}
+
+.vitec-list {
+  padding: 65px 0;
+  position: relative
+}
+
+.vitec-list a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 18px;
+  padding: 6px 0
+}
+
+.vitec-list a:hover {
+  color: #fff
+}
+
+.vitec-menu.menucoltwoA, .vitec-menu.menucoltwoB {
+  display: none
+}
+
+@media (min-width:1241px) {
+  .vitec-section .cols-container .cols.col-large-4 {
+    width: 33.33%;
+    float: left
+  }
+  .vitec-section .cols-container .cols.col-large-2 {
+    width: 16.66%;
+    float: left
+  }
+  .vitec-section .cols-container .cols.col-large-10 {
+    width: 83.33%;
+    float: left
+  }
+}
+
+@media (max-width:1240px) {
+
+
+  .vitec-menu
+  {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
+
+  .vitec-section .hidden-medium {
+    display: none!important
+  }
+  .vitec-list {
+    padding: 40px 0
+  }
+  .vitec-section h2 {
+    padding-bottom: 36px
+  }
+  .vitec-section .yellow-separator {
+    padding-left: 30px
+  }
+}
+
+@media (max-width:768px) {
+
+    .vitec-menu
+    {
+      -webkit-column-count: 1; /* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;
+    }
+
+  .vitec-section .cols {
+    display: block;
+    float: none!important;
+    width: auto!important
+  }
+  .vitec-section .yellow-separator {
+    padding-left: 0;
+    border: none
+  }
+  .vitec-list {
+    padding: 30px 0 0
+  }
+  .vitec-section h2 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    padding-left: 20px
+  }
+  .vitec-section .container {
+    padding: 0 20px
+  }
+  .vitec-section .collapsible-section .container {
+    padding: 0
+  }
+  ul.vitec-menu ul {
+    margin: 0
+  }
+  .vitec-section .close-vitec-menu {
+    right: 20px
+  }
+  .vitec-list .vitec-menu a, .vitec-section h3 {
+    padding: 20px 15px;
+    line-height: 20px
+  }
+  .vitec-section h3 {
+    font-size: 15px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    background: url(../images/downarrow.png) right 20px center no-repeat;
+    padding-right: 35px
+  }
+  .vitec-list .vitec-menu a {
+    background-color: rgba(30, 30, 30, 0);
+    transition: all ease-in-out .4s
+  }
+  .vitec-list .vitec-menu a:hover {
+    background-color: rgba(30, 30, 30, 1)
+  }
+  .vitec-section h3.active {
+    background-image: url(../images/uparrow.png)
+  }
+  ul.vitec-menu>li>ul {
+    border-bottom: 1px solid #333;
+    background-color: #191919;
+    display: none
+  }
+}
