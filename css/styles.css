@@ -87,9 +87,15 @@ ul.vitec-menu ul {
 }
 
 .vitec {
-  height: 26px;
   padding: 5px 0;
   display: block
+}
+
+.vitec::after
+{
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .vitec .vitec-logo {
@@ -104,15 +110,14 @@ ul.vitec-menu ul {
 
 .vitec .vitec-logo .logo-image {
   display: block;
-  position: absolute;
-  left: 0;
-  top: -6px;
-  height: 36px;
-  width: 36px;
-  background: url(../images/vitec-logo.png) center left no-repeat
+  height: 43px;
+  width: 130px;
+  background: url(../images/vitec-logo.png) center left no-repeat;
+  background-size: contain;
 }
 
 .vitec .vitec-sites {
+  padding: 8px 0 7px;
   float: right;
   cursor: pointer;
   line-height: 26px;

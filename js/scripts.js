@@ -17,7 +17,8 @@ $(document).ready(function(){
 	});
 
 	$('.vitec-sites').click(function(){ menuactivity() });
-	$('.close-vitec-menu').click(function(){ menuactivity() });});
+	$('.close-vitec-menu').click(function(){ menuactivity() });
+});
 
 	$(window).resize(function(){
 		if($(window).width()<=768)
