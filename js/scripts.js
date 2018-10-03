@@ -3,16 +3,19 @@ $(document).ready(function(){
 	$(".vitec-menu h3").click(function()
 	{
 
-		if ($(this).hasClass('active')) {
-				$(".vitec-menu h3").removeClass('active');
-				$(".vitec-menu > li > ul").slideUp();
-		}
+		if($(window).width()<=768)
+		{
+			if ($(this).hasClass('active')) {
+					$(".vitec-menu h3").removeClass('active');
+					$(".vitec-menu > li > ul").slideUp();
+			}
 
-		else {
-				$(".vitec-menu h3").removeClass('active');
-				$(".vitec-menu > li > ul").slideUp();
-				$(this).parent().find('ul').slideDown();
-				$(this).addClass('active');
+			else {
+					$(".vitec-menu h3").removeClass('active');
+					$(".vitec-menu > li > ul").slideUp();
+					$(this).parent().find('ul').slideDown();
+					$(this).addClass('active');
+			}
 		}
 	});
 
