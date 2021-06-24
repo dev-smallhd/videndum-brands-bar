@@ -152,6 +152,7 @@ ul.vitec-menu ul {
 .vitec-menu.menucoltwoA, .vitec-menu.menucoltwoB {
   display: none
 }
+.text-muted{ color: #fff; padding-left: 90px; margin-top: 30px; display: block; font-size: 80%;}
 
 @media (min-width:1241px) {
   .vitec-section .cols-container .cols.col-large-4 {
