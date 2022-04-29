@@ -47,7 +47,7 @@
   display: block;
   width: 22px;
   height: 22px;
-  background: url(../images/close.png) no-repeat;
+  background: url(../images/close-white.png) no-repeat;
   position: absolute;
   right: 0;
   top: 30px;
@@ -84,6 +84,10 @@ ul.vitec-menu ul {
 .vitec-section .yellow-separator {
   padding-left: 90px;
   border-left: 2px solid #fecb00
+}
+.vitec-section .white-separator {
+  padding-left: 90px;
+  border-left: 2px solid #ffffff
 }
 
 .vitec {
@@ -125,11 +129,11 @@ ul.vitec-menu ul {
   font-weight: 700;
   color: #fff;
   padding-right: 15px;
-  background: url(../images/uparrow.png) center right no-repeat
+  background: url(../images/uparrow-white.png) center right no-repeat
 }
 
 .vitec .vitec-sites.active {
-  background: url(../images/downarrow.png) center right no-repeat
+  background: url(../images/downarrow-white.png) center right no-repeat
 }
 
 .vitec-list {
