@@ -1,49 +1,49 @@
-.vitec-list::after, .vitec-section .cols-container:after {
+.videndum-list::after, .videndum-section .cols-container:after {
   display: block;
   clear: both;
   content: ""
 }
 
-.vitec-section * {
+.videndum-section * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   font-size: inherit
 }
 
-.vitec-section .container {
+.videndum-section .container {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 30px
 }
 
-.vitec-section .yellow {
+.videndum-section .yellow {
   color: #fecb00
 }
 
-.vitec-section .collapsible-section {
+.videndum-section .collapsible-section {
   background: #000
 }
 
-.vitec-section {
+.videndum-section {
   background-color: #535353
 }
 
-.vitec-menu
+.videndum-menu
 {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
 }
 
-.vitec-menu > li
+.videndum-menu > li
 {
   -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
 }
 
-.vitec-section .close-vitec-menu {
+.videndum-section .close-videndum-menu {
   display: block;
   width: 22px;
   height: 22px;
@@ -54,14 +54,14 @@
   cursor: pointer
 }
 
-.vitec-section h2 {
+.videndum-section h2 {
   font-size: 37px;
   font-weight: 700;
   color: #fff;
   line-height: 36px
 }
 
-.vitec-section h3 {
+.videndum-section h3 {
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -69,40 +69,40 @@
   padding: 5px 0
 }
 
-ul.vitec-menu, ul.vitec-menu li, ul.vitec-menu li a {
+ul.videndum-menu, ul.videndum-menu li, ul.videndum-menu li a {
   display: block
 }
 
-ul.vitec-menu ul {
+ul.videndum-menu ul {
   margin-bottom: 25px
 }
 
-.vitec-section h2 span {
+.videndum-section h2 span {
   display: block
 }
 
-.vitec-section .yellow-separator {
+.videndum-section .yellow-separator {
   padding-left: 90px;
   border-left: 2px solid #fecb00
 }
-.vitec-section .white-separator {
+.videndum-section .white-separator {
   padding-left: 90px;
   border-left: 2px solid #ffffff
 }
 
-.vitec {
+.videndum {
   padding: 5px 0;
   display: block
 }
 
-.vitec::after
+.videndum::after
 {
   content: "";
   clear: both;
   display: block;
 }
 
-.vitec .vitec-logo {
+.videndum .videndum-logo {
   float: left;
   line-height: 13px;
   font-size: 11px;
@@ -112,15 +112,15 @@ ul.vitec-menu ul {
   position: relative
 }
 
-.vitec .vitec-logo .logo-image {
+.videndum .videndum-logo .logo-image {
   display: block;
   height: 47px;
   width: 150px;
-  background: url(../images/vitec-logo.png) center left no-repeat;
+  background: url(../images/videndum-logo.png) center left no-repeat;
   background-size: contain;
 }
 
-.vitec .vitec-sites {
+.videndum .videndum-sites {
   padding: 8px 0 7px;
   float: right;
   cursor: pointer;
@@ -132,16 +132,16 @@ ul.vitec-menu ul {
   background: url(../images/uparrow-white.png) center right no-repeat
 }
 
-.vitec .vitec-sites.active {
+.videndum .videndum-sites.active {
   background: url(../images/downarrow-white.png) center right no-repeat
 }
 
-.vitec-list {
+.videndum-list {
   padding: 65px 0;
   position: relative
 }
 
-.vitec-list a {
+.videndum-list a {
   font-size: 14px;
   color: #fff;
   text-decoration: none;
@@ -149,25 +149,25 @@ ul.vitec-menu ul {
   padding: 6px 0
 }
 
-.vitec-list a:hover {
+.videndum-list a:hover {
   color: #fff
 }
 
-.vitec-menu.menucoltwoA, .vitec-menu.menucoltwoB {
+.videndum-menu.menucoltwoA, .videndum-menu.menucoltwoB {
   display: none
 }
 .text-muted{ color: #fff; padding-left: 90px; margin-top: 30px; display: block; font-size: 80%;}
 
 @media (min-width:1241px) {
-  .vitec-section .cols-container .cols.col-large-4 {
+  .videndum-section .cols-container .cols.col-large-4 {
     width: 33.33%;
     float: left
   }
-  .vitec-section .cols-container .cols.col-large-2 {
+  .videndum-section .cols-container .cols.col-large-2 {
     width: 16.66%;
     float: left
   }
-  .vitec-section .cols-container .cols.col-large-10 {
+  .videndum-section .cols-container .cols.col-large-10 {
     width: 83.33%;
     float: left
   }
@@ -176,71 +176,71 @@ ul.vitec-menu ul {
 @media (max-width:1240px) {
 
 
-  .vitec-menu
+  .videndum-menu
   {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
   }
 
-  .vitec-section .hidden-medium {
+  .videndum-section .hidden-medium {
     display: none!important
   }
-  .vitec-list {
+  .videndum-list {
     padding: 40px 0
   }
-  .vitec-section h2 {
+  .videndum-section h2 {
     padding-bottom: 36px
   }
-  .vitec-section .yellow-separator {
+  .videndum-section .yellow-separator {
     padding-left: 30px
   }
 }
 
 @media (max-width:768px) {
 
-    .vitec-menu
+    .videndum-menu
     {
       -webkit-column-count: 1; /* Chrome, Safari, Opera */
       -moz-column-count: 1; /* Firefox */
       column-count: 1;
     }
 
-  .vitec-section .cols {
+  .videndum-section .cols {
     display: block;
     float: none!important;
     width: auto!important
   }
-  .vitec-section .yellow-separator {
+  .videndum-section .yellow-separator {
     padding-left: 0;
     border: none
   }
-  .vitec-list {
+  .videndum-list {
     padding: 30px 0 0
   }
-  .vitec-section h2 {
+  .videndum-section h2 {
     font-size: 30px;
     line-height: 30px;
     padding-bottom: 16px;
     padding-left: 20px
   }
-  .vitec-section .container {
+  .videndum-section .container {
     padding: 0 20px
   }
-  .vitec-section .collapsible-section .container {
+  .videndum-section .collapsible-section .container {
     padding: 0
   }
-  ul.vitec-menu ul {
+  ul.videndum-menu ul {
     margin: 0
   }
-  .vitec-section .close-vitec-menu {
+  .videndum-section .close-videndum-menu {
     right: 20px
   }
-  .vitec-list .vitec-menu a, .vitec-section h3 {
+  .videndum-list .videndum-menu a, .videndum-section h3 {
     padding: 20px 15px;
     line-height: 20px
   }
-  .vitec-section h3 {
+  .videndum-section h3 {
     font-size: 15px;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -249,17 +249,17 @@ ul.vitec-menu ul {
     background: url(../images/downarrow.png) right 20px center no-repeat;
     padding-right: 35px
   }
-  .vitec-list .vitec-menu a {
+  .videndum-list .videndum-menu a {
     background-color: rgba(30, 30, 30, 0);
     transition: all ease-in-out .4s
   }
-  .vitec-list .vitec-menu a:hover {
+  .videndum-list .videndum-menu a:hover {
     background-color: rgba(30, 30, 30, 1)
   }
-  .vitec-section h3.active {
+  .videndum-section h3.active {
     background-image: url(../images/uparrow.png)
   }
-  ul.vitec-menu>li>ul {
+  ul.videndum-menu>li>ul {
     border-bottom: 1px solid #333;
     background-color: #191919;
     display: none
